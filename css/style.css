@@ -94,3 +94,189 @@ br.clear {
     font-style: normal;
     font-display: swap;
 }
+#bg { 
+	width: 100%;
+	background: url("../Assets/spot\ light.jpg") no-repeat;
+	background-size: cover;
+	padding: 0 0 64px 0;
+}
+
+#bg section.wrapper { 
+
+}
+
+#bg header { 
+	display: flex;
+	justify-content: space-between;
+	padding: 28px;
+}
+
+#bg header h1 { 
+
+}
+
+#bg header h1 a { 
+
+}
+
+#bg header h1 a img { 
+	display: block;
+	width: 189px;
+	
+	
+}
+
+#bg header nav.left { 
+	
+}
+
+#bg header nav.left ul { 
+	display: flex;
+	justify-content: space-between;
+	margin-right: 30px;
+	
+}
+
+#bg header nav.left ul li { 
+	margin-left: 20px;
+	margin-top: 12px;
+	
+}
+
+#bg header nav.left ul li a { 
+	color: #fff;
+	font-size: 18px;
+	align-items: center;
+}
+#bg header nav.left ul li:first-child {
+	margin-left: 0;
+}
+#bg header nav.right { 
+	display: flex;
+	align-items: center;
+}
+
+#bg header nav.right a { 
+	color: #fff;
+	font-size: 18px;
+	display: block;
+}
+#bg header nav.right a:last-child{
+	margin-right: 10px;
+	margin-left: 28px;
+}
+
+#bg header nav.right a.button { 
+	border: 1px;
+	color: #000;
+	background: #fff;
+	padding: 10px 20px;
+	border-radius: 20px;
+	display:inline-block;
+	font-weight: 600;
+	
+}
+
+#bg section.tab { 
+	width: 100%;
+	padding: 80px 60px;
+	text-align: center;
+}
+
+#bg section.tab div.top { 
+	width: 58%;
+	margin: 0 auto;
+}
+
+#bg section.tab div.top h1 { 
+	color: #fff;
+	font-size: 57px;
+	font-weight: 700;
+}
+
+#bg section.tab div.top p { 
+	color: #60625d;
+	margin-top: 89px;
+	font-size: 15px;
+	width: 86%;
+    margin: 89px auto 95px;
+}
+#bg section.tab div.top div.center{
+	position: relative;
+}
+#bg section.tab div.top div.center div.btn { 
+	background: #A6FF34 ;
+	padding: 20px 38px;
+	border-radius: 30px ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 35%;
+	margin: 0 auto 180px;
+}
+#bg section.tab div.top div.center a.button { 
+	font-weight: 700;
+	font-size: 20px;
+	display: block;
+	margin-right: 6px;
+}
+
+#bg section.tab div.top div.center div.btn img.fire { 
+  display: block;
+	
+}
+
+#bg section.tab div.top div.center img.arrowtxt { 
+	display: block;
+	position: absolute;
+	top: -55px;
+    left: 444px;
+	width: 115px;
+}
+
+#bg section.tab div.bottom { 
+
+}
+
+#bg section.tab div.bottom ul { 
+	/* width: 90%;
+	margin: 0 auto; */
+	display: flex;
+	margin: 50px;
+}
+#bg section.tab div.bottom ul li {
+	width: 25%;
+	position: relative;
+ }
+#bg section.tab div.bottom ul li img {
+	width: 100%;
+	display: block;
+	height: 78px;
+ }
+ #bg section.tab div.bottom ul li div {
+	width: 250px;
+	
+ }
+#bg section.tab div.bottom ul li div.one { 
+	transform: rotate(-15deg);
+    position: absolute;
+	top: -55px;
+    right: -123px;
+}
+#bg section.tab div.bottom ul li div.two { 
+	position: absolute;
+    top: -8px;
+    right: -37px;
+}
+ section.tab div.bottom ul li div.three { 
+	transform: rotate(-5deg);
+    position: absolute;
+    top: -66px;
+    right: 20px;
+}
+#bg section.tab div.bottom ul li div.four { 
+	transform: rotate(4deg);
+	position: absolute;
+    top: -8px;
+    right: 38px;
+}
