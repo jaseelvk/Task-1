@@ -420,3 +420,86 @@ br.clear {
     border-radius: 11px;
     display: block;
 }
+#platform { 
+	width: 100%;
+	padding: 60px;
+	background: rgb(245, 245, 245);
+}
+
+#platform section.wrapper { 
+
+}
+
+#platform div.trend { 
+	width: 100%;
+	padding: 30px;
+	text-align: center;
+	
+}
+
+#platform div.trend h1 { 
+	font-size: 57px;
+	font-weight: 700;
+}
+
+#platform div.logos { 
+	display: flex;
+	justify-content: space-between;
+}
+
+#platform div.logos ul { 
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+#platform div.logos ul li { 
+	width: 141px;
+}
+
+#platform div.logos ul li a { 
+	
+}
+
+#platform div.logos ul li a img { 
+	width: 100px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 9px;
+	display: block;
+}
+#platform div.logos ul li a img:hover{
+	background: #A6FF34;
+}
+
+#platform section.social { 
+	padding: 60px;
+}
+
+#platform section.social div.network { 
+	align-items: center;
+	padding: 30px 70px;
+	margin: 0 auto;
+	max-width: 80%;
+	
+}
+
+#platform section.social div.network img { 
+	display: block;
+	width: 100%;
+	margin-bottom: 13px;
+}
+
+#platform div.button { 
+	margin: 0 auto;
+	width: 124px;
+}
+
+#platform div.button a { 
+	border: 1px;
+	background: #000;
+	color: #E8E8E8;
+	padding: 20px 48px;
+	border-radius: 30px;
+	
+}
