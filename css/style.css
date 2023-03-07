@@ -363,3 +363,60 @@ br.clear {
 	font-size: 14px;
 	margin-top: 30px;
 }
+#main { 
+	padding: 70px;
+	width: 100%;
+}
+
+#main section.wrapper { 
+
+}
+
+#main div.content { 
+
+}
+
+#main div.content h1 { 
+	font-weight: 600;
+	font-size: 55px;
+}
+
+#main div.content h1 b { 
+	color: #60625d;
+	font-weight: 600;
+}
+
+#main div.grow { 
+	width: 100%;
+	padding: 50px;
+	
+	
+}
+
+#main div.grow h1 { 
+	font-size: 58px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+
+#main div.gallery { 
+	width: 100%;
+}
+#main div.gallery ul { 
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#main div.gallery ul li { 
+	width: 25%;
+	padding: 23px 13px 0;
+}
+
+#main div.gallery ul li img { 
+	width: 100%;
+    background: rgb(245, 245, 245);
+    padding: 24px 42px;
+    border-radius: 11px;
+    display: block;
+}
