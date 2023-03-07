@@ -503,3 +503,151 @@ br.clear {
 	border-radius: 30px;
 	
 }
+#service { 
+	width: 100%;
+	padding: 60px;
+	background: #000;
+}
+
+#service section.wrapper { 
+
+}
+
+#service div.deal { 
+	text-align: center;
+}
+
+#service div.deal h1 { 
+	color: #E8E8E8;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+#service div.switch { 
+	margin: 46px 358px;
+	position: relative;
+
+}
+
+#service div.switch ul { 
+	display: flex;
+    align-items: center;
+	margin-left: 40px;
+	
+
+}
+
+#service div.switch ul li { 
+	padding: 7px;
+}
+#service div.switch ul li img{
+	display: block;
+	width: 100px;
+	position: absolute;
+	top: 0;
+	right: -26px;
+
+}
+
+#service div.switch ul li h6 { 
+	color: #E8E8E8;
+}
+#service div.switch ul li h6 b {
+	color: #60625d;
+}
+#service div.switch ul li div.white {
+	height: 46px;
+    width: 96px;
+    background: #fff;
+    border-radius: 25px;
+	display: flex;
+	align-items: center;
+}
+#service div.switch ul li div.white div.green {
+	background: #A6FF34;
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+#service section.wrapper div.personal { 
+
+}
+
+#service section.wrapper div.personal ul { 
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+    margin: 0 auto;
+}
+
+#service section.wrapper div.personal ul li { 
+	width: 30.33%;
+	background: #fff;
+	text-align: left;
+	padding: 24px 24px 32px;
+	border-radius: 10px;
+}
+#service section.wrapper div.personal ul li:hover {
+	background: #A6FF34;
+}
+#service section.wrapper div.personal ul li:hover a.button {
+	background: #000;
+	color: #FFF;
+}
+#service section.wrapper div.personal ul li h3.pesonal { 
+	font-size: 32px;
+	font-weight: 700;
+}
+
+#service section.wrapper div.personal ul li h5 { 
+	font-size: 18px;
+    margin: 10px 0;
+}
+
+#service section.wrapper div.personal ul li hr.line { 
+	border-bottom: 1px solid #000;
+}
+
+#service section.wrapper div.personal ul li div.flex { 
+	display: flex;
+	align-items: baseline;
+}
+#service section.wrapper div.personal ul li div.flex.align { 
+	display: flex;
+	align-items: center;
+	margin-bottom: 13px;
+}
+#service section.wrapper div.personal ul li div.flex.align span.tick {
+	display: inline-block;
+	margin-right: 10px;
+	width: 20px;
+}
+#service section.wrapper div.personal ul li div.flex.align h3 {
+	font-size: 14px;
+}
+#service section.wrapper div.personal ul li div.flex.align img {
+	display: block;
+	width: 100%;
+}
+#service section.wrapper div.personal ul li  a.button {
+	background: #A6FF34;
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+    border-radius: 24px;
+    margin: 112px auto 0;
+    width: 61%;
+    text-align: center;
+    padding: 8px 0;
+
+}
+#service section.wrapper div.personal ul li div.flex h2 { 
+	font-size: 56px;
+	font-weight: 800;
+	margin: 10px 30px 30px 0;
+}
+
+#service section.wrapper div.personal ul li div.flex span.month { 
+}
