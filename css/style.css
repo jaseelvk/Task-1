@@ -680,15 +680,57 @@ br.clear {
 }
 
 #topics a.button { 
-	border: 1px;
-	color: #fff;
-	background: #000;
-	padding: 10px 20px;
-	border-radius: 20px;
-	display:block;
-	font-weight: 600;
-	margin: 0 auto;
-	width: 100px;
-	margin-top: 95px;
+    border: 1px;
+    color: #fff;
+    background: #000;
+    padding: 15px 30px;
+    border-radius: 20px;
+    display: block;
+    font-weight: 600;
+    margin: 0 auto;
+    width: 131px;
+    margin-top: 80px;
 
+}
+#bottom { 
+	width: 100%;
+	background: #fff;
+}
+
+#bottom section.wrapper { 
+
+}
+
+#bottom section.down { 
+	display: flex;
+	justify-content: space-between;
+}
+
+#bottom section.down div.icon { 
+	padding: 15px 42px 30px ;
+}
+
+#bottom section.down div.icon img { 
+	width: 176px;
+	display: block;
+}
+
+#bottom section.down div.nav { 
+	padding: 25px;
+}
+
+#bottom section.down div.nav ul { 
+	display: flex;
+	justify-content: space-between;
+}
+
+#bottom section.down div.nav ul li { 
+	
+}
+
+#bottom section.down div.nav ul li a { 
+	padding: 10px;
+	font-weight: 500;
+	font-size: 16px;
+	
 }
