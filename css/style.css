@@ -239,8 +239,6 @@ br.clear {
 }
 
 #bg section.tab div.bottom ul { 
-	/* width: 90%;
-	margin: 0 auto; */
 	display: flex;
 	margin: 50px;
 }
@@ -279,4 +277,89 @@ br.clear {
 	position: absolute;
     top: -8px;
     right: 38px;
+}
+#spotlight { 
+	width:100%;
+	background: #A6FF34;
+	padding: 96px 0;
+	border-top: 2px solid #fff;
+}
+
+#spotlight section.wrapper { 
+
+}
+
+#spotlight div.title { 
+	text-align: center;
+}
+
+#spotlight div.title h1 { 
+	font-size: 53px;
+	font-weight: 700;
+}
+
+#spotlight section.container { 
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 55px 40px;
+	position: relative;
+}
+
+
+#spotlight section.container div.center { 
+	
+    margin: 0 auto;
+    background: #fff;
+    padding: 37px 0px 37px 71px;
+    width: 38%;
+    border-radius: 16px;
+}
+	
+#spotlight section.container div.center a { 
+	
+}
+
+#spotlight section.container div.center a img { 
+	display: block;
+	width: 292px;
+}
+
+#spotlight section.container  div.left { 
+	transform: scaleX(-1);
+	position: absolute;
+	left: 247px;
+    top: 77px;
+}
+
+#spotlight section.container  div.left img { 
+	filter: invert(1);
+	display: block;
+}
+
+#spotlight section.container  div.right { 
+    position: absolute;
+	right: 247px;
+    top: 79px;
+}
+
+#spotlight section.container  div.right img { 
+	filter: invert(1);
+	display: block;
+}
+
+#spotlight section.footer { 
+
+}
+
+#spotlight section.footer div.bottom { 
+	width: 100%;
+	text-align: center;
+	
+}
+
+#spotlight section.footer div.bottom p { 
+	color: #60625d;
+	font-size: 14px;
+	margin-top: 30px;
 }
