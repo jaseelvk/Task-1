@@ -702,6 +702,7 @@ br.clear {
     margin: 0 auto;
     width: 131px;
     margin-top: 80px;
+    text-align: center;
 
 }
 #bottom { 
@@ -716,14 +717,15 @@ br.clear {
 #bottom section.down { 
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 #bottom section.down div.icon { 
-	padding: 15px 42px 30px ;
+	padding: 24px 0;
 }
 
 #bottom section.down div.icon img { 
-	width: 176px;
+	width: 100%;
 	display: block;
 }
 
@@ -1113,7 +1115,7 @@ br.clear {
     font-size: 52px;
 	}
 	#bottom section.down div.icon img {
-    width: 158px;
+    width: 100%;
     display: block;
 	}
 }
@@ -1211,7 +1213,7 @@ br.clear {
 		font-size: 12px;
 	}
 	#bottom section.down div.icon img {
-		width: 130px;
+		width: 100%;
 	}
 
 }
@@ -1339,23 +1341,30 @@ br.clear {
 	#service section.wrapper div.personal ul {
 		margin: 0 0 0 16px;
 	}
+	#service section.wrapper div.personal ul li a.button {
+		margin: 36px auto 0;
+	}
 	#topics div.email h1 {
 		font-size: 26px;
 	}
 	#topics div.email h1 b {
 		font-size: 26px;
 	}
+	#bottom section.down {
+		justify-content: center;
+	}
 	#bottom section.down div.nav ul li{
 		display: none;
+	}
+	#bottom section.down div.down {
+		width: 52%;
 	}
 	#bottom section.down div.nav {
 		padding: 0px;
 	}
-	#bottom section.down div.icon {
-		padding: 24px 82px 38px;
-	}
 	#bottom section.down div.icon img {
-		width: 270px;
+		width: 100%;
+
 	}
 }
 @media all and (max-width: 480px){
@@ -1446,10 +1455,92 @@ br.clear {
 
 		margin-left: 60px;
 	}
-	#bottom section.down div.icon {
-		padding: 37px 33px 38px;
-	}
 
 }
-@media all and (max-width: 360px){
+@media all and (max-width:360px) {
+	#bg header nav.right {
+		display: none;
+	}
+	#bg header h1 a img {
+		display: block;
+		width: 250px;
+	}
+	#bg section.tab {
+		width: 100%;
+		padding: 19px 12px;
+		text-align: center;
+	}
+	#bg section.tab div.top div.center img.arrowtxt{
+		display: none;
+	}
+	#bg section.tab div.top div.center div.btn {
+		width: 58%;
+		margin: 0 auto 108px;
+	}
+	#bg section.tab div.bottom ul.responsive {
+		width: 85%;
+	}
+	#spotlight div.title h1 {
+		font-size: 42px;
+		font-weight: 800;
+		line-height: 1.5em;
+	}
+	
+	#spotlight section.container div.center {
+		width: 100%;
+		padding: 26px 0px 27px 34px;
+	}
+	#spotlight section.footer div.bottom p {
+		font-size: 21px;
+		margin-top: 30px;
+	}
+	#main {
+		padding: 22px;
+		width: 100%;
+	}
+	#main div.content h1 {
+		font-size: 22px;
+	}
+	#platform div.trend{
+		padding: 0;
+	}
+	#platform div.trend h1 {
+		font-size: 48px;
+	}
+	#platform div.logos ul li {
+		width: 24%;
+		margin-bottom: 20px;
+	}
+	#platform section.social div.network{
+		width: 100%;
+		padding: 30px 2px;
+	}
+	#platform section.social div.network img {
+		width: 282px;
+		display: block;
+	}
+	#service section.wrapper div.personal ul li {
+		width: 87%;
+		margin-bottom: 20px;
+	}
+	#topics div.email {
+		width: 83%;
+		margin-left: 19px;
+	}
+	#topics div.email h1 {
+		font-size: 22px;
+	}
+	#topics div.email h1 b {
+		font-size: 22px;
+	}
+	#topics a.button {
+		width: 121px;
+		margin-left: 32px;
+		padding: 15px 22px;
+		margin-top: 60px;
+	}
+	#bottom section.down div.icon {
+		width: 55%;
+	}
+
 }
