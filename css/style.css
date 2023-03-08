@@ -829,6 +829,108 @@ br.clear {
 	}
 }
 @media all and (max-width: 1080px){
+	#bg header h1 a img {
+		display: block;
+		width: 149px;
+	}
+	#bg header nav.left ul li {
+		margin-left: 20px;
+		margin-top: 17px;
+	}
+	#bg header nav.right {
+		margin-top: 9px;
+	}
+	#bg section.tab div.top div.center img.arrowtxt {
+		display: block;
+		position: absolute;
+		top: -35px;
+		left: 400px;
+		width: 111px;
+	}
+	#bg section.tab div.top div.center div.btn {
+		width: 35%;
+		padding: 17px;
+	}
+	#bg section.tab div.bottom ul li div.one {
+		width: 198px;
+		transform: rotate(0deg);
+		position: absolute;
+		top: -85px;
+		right: -123px;
+	}
+	}
+	#bg section.tab div.bottom ul li div.two {
+		width: 198px;
+	}
+	#bg section.tab div.bottom ul li div.three {
+		width: 196px;
+		transform: rotate(0deg);
+		position: absolute;
+		top: -86px;
+		right: 20px;
+	}
+	
+	#bg section.tab div.bottom ul li div.four {
+		width: 198px;
+		transform: rotate(0deg);
+		position: absolute;
+		top: -11px;
+		right: 83px;
+	}
+	#spotlight section.container div.center a img {
+		display: block;
+		width: 263px;
+	}
+	#spotlight section.container div.right {
+		position: absolute;
+		right: 119px;
+		top: 67px;
+	}
+	#spotlight section.container div.left {
+		transform: scaleX(-1);
+		position: absolute;
+		left: 119px;
+		top: 76px;
+	}
+	#main div.content h1 {
+		font-weight: 600;
+		font-size: 41px;
+	}
+	#main div.grow h1 {
+		font-size: 38px;
+	}
+	#platform div.trend h1 {
+		font-size: 45px;
+		font-weight: 700;
+	}
+	#platform div.logos ul li {
+		width: 107px;
+	}
+	#platform section.social div.network {
+		max-width: 100%;
+	}
+	#service div.switch ul li img {
+		position: absolute;
+		top: 2px;
+		right: -124px;
+	}
+	
+	#service section.wrapper div.personal ul {
+		display: flex;
+		justify-content: space-between;
+		width: 98%;
+		margin: 0px -63px;
+	}
+	#service div.switch ul li img {
+    position: absolute;
+    top: 2px;
+    right: -124px;
+	}
+	#topics div.email h1{
+		font-size: 56px;
+	}
+#topics div.email h1 b {
+	font-size: 56px;
 }
 @media all and (max-width: 980px){
 }
