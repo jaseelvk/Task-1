@@ -1214,9 +1214,147 @@ br.clear {
 	}
 
 }
-
-
 @media all and (max-width: 640px){
+	#bg header nav.left ul li{
+		display: none;
+	}
+	#bg header h1 a img {
+		display: block;
+		width: 132px;
+	}
+	#bg header nav.right a {
+		color: #fff;
+		font-size: 13px;
+		align-items: center;
+	}
+	#bg section.tab div.top {
+		width: 100%;
+	}
+	#bg section.tab div.top h1 {
+		font-size: 33px;
+	}
+	#bg section.tab div.top p {
+		font-size: 16px;
+		width: 100%;
+	}
+	#bg section.tab div.top div.center div.btn {
+		width: 52%;
+		margin: 0 auto 108px;
+	}
+	#bg section.tab div.top div.center img.arrowtxt {
+		left: 246px;
+	}
+	#bg section.tab div.bottom ul.responsive li {
+		margin-bottom: 24px;
+		width: 100%;
+	}
+	#bg section.tab div.bottom ul.responsive li:nth-child(3){
+		margin-bottom: 24px;
+	}
+	#spotlight div.title h1 {
+		font-size: 32px;
+		font-weight: 700;
+	}
+	#spotlight section.container div.center a img {
+		display: block;
+		width: 147px;
+	}
+	#spotlight section.container div.center {
+		width: 62%;
+		padding: 28px 0px 32px 39px;
+	}
+	#spotlight section.container div.left img {
+		filter: invert(1);
+		display: block;
+		width: 83%;
+	}
+	#spotlight section.container div.left {
+		left: -16px;
+	}
+	#spotlight section.container div.right img {
+		filter: invert(1);
+		display: block;
+		width: 83%;
+	}
+	#spotlight section.container div.right {
+		right: -17px;
+	}
+	#spotlight section.footer div.bottom p {
+		font-size: 12px;
+		margin-top: 30px;
+	}
+	#main div.content h1 {
+		font-size: 24px;
+	}
+	#main div.grow {
+		width: 100%;
+		padding: 6px;
+	}
+	#main div.grow h1 {
+		font-size: 20px;
+		margin-top: 60px;
+		font-weight: 600;
+	}
+	#main div.gallery ul li {
+		width: 50%;
+		padding: 24px 4px 0;
+	}
+	#platform {
+		width: 100%;
+		padding: 0px;
+	}
+	#platform div.trend {
+		width: 100%;
+		padding: 12px;
+		text-align: center;
+	}
+	#platform section.social div.network img {
+		width: 394px;
+
+	}
+	#platform section.social div.network img:last-child{
+		margin-bottom: 5px;
+	}
+	#platform div.button {
+		margin: 36px auto;
+		width: 166px;
+	}
+	#platform div.button a {
+    padding: 10px 41px;
+    border-radius: 30px;
+	}
+	#service div.deal h1 {
+		font-size: 32px;
+		font-weight: 600;
+	}
+	#service div.switch {
+		margin: 46px 160px;
+		position: relative;
+	}
+	#service div.switch ul li div.white {
+		height: 37px;
+	}
+	#service section.wrapper div.personal ul {
+		margin: 0 0 0 16px;
+	}
+	#topics div.email h1 {
+		font-size: 26px;
+	}
+	#topics div.email h1 b {
+		font-size: 26px;
+	}
+	#bottom section.down div.nav ul li{
+		display: none;
+	}
+	#bottom section.down div.nav {
+		padding: 0px;
+	}
+	#bottom section.down div.icon {
+		padding: 24px 82px 38px;
+	}
+	#bottom section.down div.icon img {
+		width: 270px;
+	}
 }
 @media all and (max-width: 480px){
 }
