@@ -817,6 +817,7 @@ br.clear {
 	}
 	#platform section.social div.network{
 		max-width: 87%;
+		padding: 30px 51px;
 	}
 	#service div.switch {
 		margin: 46px 255px;
@@ -920,6 +921,7 @@ br.clear {
 	}
 	#platform section.social div.network {
 		max-width: 100%;
+		padding: 30px 51px;
 	}
 	#service div.switch ul li img {
 		position: absolute;
@@ -1116,7 +1118,104 @@ br.clear {
 	}
 }
 @media all and (max-width: 768px){
+	#bg header h1 a img {
+    display: block;
+    width: 81px;
+	}
+	#bg header nav.left ul li a {
+    color: #fff;
+    font-size: 9px;
+    align-items: center;
+	}
+	#bg section.tab div.top h1{
+		font-size: 37px;
+	}
+	#bg section.tab div.top p {
+    font-size: 12px;
+    width: 100%;
+	}
+	#bg section.tab div.top div.center div.btn{
+		width: 48%;
+		    margin: 0 auto 108px;
+	}
+	#bg section.tab div.top div.center img.arrowtxt{
+		left: 266px;
+	}
+	#bg section.tab div.bottom ul.responsive{
+		width: 100%;
+	}	
+	#spotlight section.container div.center {
+    width: 61%;
+	
+
+	}
+	#spotlight section.container div.right{
+		right: 15px;
+	}
+	#spotlight section.container div.left{
+		left: 15px;
+	}
+	#main div.content h1 {
+		font-size: 29px;
+	}
+	#main div.grow h1 {
+    font-size: 20px;
+	}
+	#main div.gallery ul li {
+		width: 50%;
+	}
+	#platform div.trend h1 {
+		font-size: 39px;
+	}
+	#platform div.logos ul{
+		flex-wrap: wrap;
+	}
+	#platform div.logos ul li {
+		width: 22%;
+		margin-bottom: 20px;
+	}
+	#platform div.button {
+    margin: 15px auto;
+    width: 97px;
+	}
+	#platform section.social div.network{
+		width: 100%;
+		    padding: 30px 2px;
+	}
+	#platform section.social div.network img{
+		width: 436px;
+	}
+	#platform div.button {
+    margin: 15px auto;
+    width: 196px;
+	}
+	#service div.switch {
+    margin: 46px 218px;
+    position: relative;
+	}
+	#service div.switch ul li img {
+    position: absolute;
+    top: 32px;
+    right: -229px;
+	}
+	#service section.wrapper div.personal ul {
+
+    margin: 0 0 0 66px;
+	}
+	#topics div.email {
+    width: 87%;
+    margin-left: 19px;
+	}
+	#bottom section.down div.nav ul li a {
+		font-size: 12px;
+	}
+	#bottom section.down div.icon img {
+		width: 130px;
+	}
+
 }
+
+
 @media all and (max-width: 640px){
 }
 @media all and (max-width: 480px){
