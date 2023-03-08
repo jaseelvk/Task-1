@@ -734,3 +734,109 @@ br.clear {
 	font-size: 16px;
 	
 }
+@media all and (max-width: 1380px){
+	#bg section.tab div.top div.center div.btn{
+		width:40%;
+		padding: 17px;
+	}
+	#service div.switch ul li img{
+		position: absolute;
+		top: 10px;
+		right: -70px;
+	}
+}
+@media all and (max-width: 1280px){
+	#bg header nav.left ul{
+		margin-right: 18px;
+	}
+	#bg section.tab div.top{
+		width: 76%;
+	}
+	#bg section.tab div.top div.center img.arrowtxt{
+		display: block;
+		position: absolute;
+		top: -40px;
+		left: 474px;
+		width: 115px;
+	}
+	#bg section.tab div.bottom ul {
+		display: flex;
+		margin: -23px;
+	}
+	#bg section.tab div.bottom ul li div.one{
+		width: 204px;
+	}
+	#bg section.tab div.bottom ul li div.two{
+		width: 204px;
+	}
+	#bg section.tab div.bottom ul li div.three{
+		width: 204px;
+	}
+	#bg section.tab div.bottom ul li div.four{
+		width: 204px;
+		right: 49px;
+	}
+	#spotlight section.container div.center {
+		width: 49%;
+	}
+	#spotlight section.container div.right {
+		position: absolute;
+		right: 135px;
+		top: 67px;
+	}
+	#spotlight section.container div.left {
+		transform: scaleX(-1);
+		position: absolute;
+		left: 135px;
+		top: 77px;
+	}
+	#main div.content {
+		width: 100%;
+	}
+	#main div.content h1 {
+		font-weight: 600;
+		font-size: 44px;
+	}
+	#main div.grow h1{
+		font-size: 43px;
+	}
+	#platform div.logos ul li {
+		width: 119px;
+	}
+	#platform section.social div.network{
+		max-width: 87%;
+	}
+	#service div.switch {
+		margin: 46px 255px;
+		position: relative;
+	}
+	#service div.switch ul li img {
+		position: absolute;
+		top: 10px;
+		right: -42px;
+	}
+	#service section.wrapper div.personal {
+		width: 927px;
+	}
+	#service section.wrapper div.personal ul li div.flex h2 {
+		font-size: 56px;
+		font-weight: 800;
+		margin: 10px 21px 30px 0;
+	}
+	#topics div.email {
+		width: 87%;
+		margin-left: 81px;
+	}
+}
+@media all and (max-width: 1080px){
+}
+@media all and (max-width: 980px){
+}
+@media all and (max-width: 768px){
+}
+@media all and (max-width: 640px){
+}
+@media all and (max-width: 480px){
+}
+@media all and (max-width: 360px){
+}
