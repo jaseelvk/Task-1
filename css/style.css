@@ -1184,6 +1184,7 @@ br.clear {
 	}
 	#platform section.social div.network img{
 		width: 436px;
+		display: block;
 	}
 	#platform div.button {
     margin: 15px auto;
@@ -1310,6 +1311,7 @@ br.clear {
 	}
 	#platform section.social div.network img {
 		width: 394px;
+		display: block;
 
 	}
 	#platform section.social div.network img:last-child{
@@ -1357,6 +1359,97 @@ br.clear {
 	}
 }
 @media all and (max-width: 480px){
+	#bg section.tab div.top h1 {
+		font-size: 45px;
+	}
+	#bg section.tab div.top div.center div.btn {
+		width: 77%;
+		margin: 0 auto 108px;
+	}
+	#bg section.tab div.top div.center img.arrowtxt {
+		left: 188px;
+		width: 42%;
+	}
+	#bg section.tab {
+		width: 100%;
+		padding: 60px 60px;
+		text-align: center;
+	}
+	#spotlight section.container div.center {
+		width: 91%;
+		padding: 26px 0px 27px 34px;
+	}
+	#spotlight section.container div.left img{
+		display: none;
+	}
+	#spotlight section.container div.right img {
+		display: none;
+	}
+	#spotlight section.footer div.bottom p {
+		font-size: 17px;
+		margin-top: 30px;
+	}
+	#main div.content h1 {
+		font-size: 19px;
+	}
+	#main div.gallery ul li {
+		width: 100%;
+		padding: 24px 4px 0;
+	}
+	#platform div.trend h1 {
+		font-size: 31px;
+	}
+	#platform section.social div.network img {
+		width: 310px;
+		display: block;
+	}
+	#platform {
+		width: 100%;
+		padding: 10px;
+	}
+	#platform div.button {
+		margin: 0px auto;
+		width: 112px;
+		margin-bottom: 20px;
+	}
+	#platform div.button a {
+		padding: 8px 30px;
+		border-radius: 30px;
+	}
+	#service {
+		width: 100%;
+		padding: 0px;
+	}
+	#service div.deal {
+		text-align: center;
+		width: 100%;
+
+	}
+	#service div.switch ul li img {
+		display: none;
+	}
+	#service section.wrapper div.personal ul {
+		margin: 0 0 0 9px;
+	}
+	#topics div.email {
+		width: 100%;
+		margin-left: 19px;
+	}
+	#topics div.email h1 {
+		font-size: 42px;
+	}
+	#topics div.email h1 b {
+		font-size: 42px;
+	}
+	#topics a.button{
+		width: 122px;
+
+		margin-left: 60px;
+	}
+	#bottom section.down div.icon {
+		padding: 37px 33px 38px;
+	}
+
 }
 @media all and (max-width: 360px){
 }
